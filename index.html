@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic meta tags for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Nook</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to external JavaScript file -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- ========================================
+         HEADER & NAVIGATION SECTION
+         ======================================== -->
+    <header>
+        <nav>
+            <!-- Site logo/title -->
+            <h1>The Nook</h1>
+            <!-- Navigation menu -->
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Read">Read</a></li>
+                <li><a href="#About">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ========================================
+         MAIN CONTENT AREA
+         ======================================== -->
+    <main class="main">
+
+        <!-- ========================================
+             HERO/WELCOME SECTION
+             ======================================== -->
+        <section class="hero" id="Home">
+            <div class="container">
+                <h2 class="hero-title">Welcome to The Nook</h2>
+                <p class="hero-description">A collection of my favorite articles, essays, and papers. 
+                These pieces have shaped my thinking and I hope you'll find them as 
+                enlightening as I did:) Happy reading!</p>
+            </div>
+        </section>
+        
+        <!-- ========================================
+             ARTICLES SECTION
+             ======================================== -->
+        <section class="articles" id="Read">
+        
+
+            <div class="container">
+                <!-- Section title -->
+                <h2 class="section-title">Featured Articles</h2>
+                
+                <!-- Grid container for article cards -->
+                <div class="articles-grid">
+                    
+                    <!-- ========================================
+                         ARTICLE CARD 1
+                         ======================================== -->
+                    <article class="article-card">
+                        <!-- Article image -->
+                        <div class="article-image">
+                            <img src="images/cover.jpg" alt="Islamic law and the colonial encounter in British India">
+                        </div>
+                        <!-- Article content -->
+                        <div class="article-content">
+                            <h3 class="article-title">Islamic law and the colonial encounter in British India</h3>
+                            <p class="article-description">In contemporary debates regarding Muslim identity in South Asia no issue is as prominent or as hotly contested as the character and social role of Islamic law. Though the controversies are directly relevant to present day concerns the questions themselves are neither new nor innocent of colonial influence. The existing corpus of Islamic law in the subcontinent owes a great deal to the legacy of colonial jurists who systematised and gave shape to Anglo-Muhammadan law over many decades. In this essay the history of Anglo-Muhammadan scholarship is considered in light of the colonial need for precise and reliable information about indigenous laws. In their preference for textual sources the courts were inclined to endorse highly orthodox forms of Islamic law which were applied more widely and rigorously than in the pre-colonial period ultimately contributing to a new politics of Muslim identity in the twentieth century.</p>
+                            <!-- Button triggers modal popup -->
+                            <button class="article-link" onclick="openModal('article1')">Read More</button>
+                        </div>
+                    </article>
+
+                    <!-- ========================================
+                         ARTICLE CARD 2
+                         ======================================== -->
+                    <article class="article-card">
+                        <!-- Article image -->
+                        <div class="article-image">
+                            <img src="images/cover1.jpg" alt="A Fanonian Perspective on Double Consciousness">
+                        </div>
+                        <!-- Article content -->
+                        <div class="article-content">
+                            <h3 class="article-title">A Fanonian Perspective on Double Consciousness</h3>
+                            <p class="article-description">This study examines the historical parallel between the intellectual work of W.E.B. Du Bois and Frantz Fanon. In 1903, Du Bois coined a term called "double consciousness" to explain the thought process of being both a Negro (i.e., Black) and an American (i.e., non-Black) in the United States. Fifty years later, Fanon wrote a detailed analysis of a similar theme in a book called "Black Skin, White Masks". From two different eras, these two scholars/activists provided valuable information on the mental conflict associated with having a dual identity. To provide the basis for finding solutions to the many social crises experienced within the Black community, a Fanonian perspective on double consciousness will be discussed. In conclusion, a recommendation will be put forth to focus on a single-minded consciousness to rescue, to reconstruct, and to revitalize the minds of those who have been miseducated.</p>
+                            <!-- Button triggers modal popup -->
+                            <button class="article-link" onclick="openModal('article2')">Read More</button>
+                        </div>
+                    </article>
+
+                    <!-- ========================================
+                         ARTICLE CARD 3
+                         ======================================== -->
+                    <article class="article-card">
+                        <!-- Article image -->
+                        <div class="article-image">
+                            <img src="images/cover2.webp" alt="Islamist Education: American-Funded Textbooks In Afghanistan">
+                        </div>
+                        <!-- Article content -->
+                        <div class="article-content">
+                            <h3 class="article-title">Islamist Education: American-Funded Textbooks In Afghanistan</h3>
+                            <p class="article-description">Textbooks designed to teach math and language arts are filled with depictions of Kalashnikov rifles, grenades, and military ammunition.2 However, the great irony is that these textbooks were produced, funded, and distributed by the US government using taxpayer dollars. The Taliban regime which President Bush deplored as an enemy which “aids terrorists” and “barbaric criminals who profane a great religion by commiting murder in its name” is using and reprinting American-funded materials to propagate its radical ideology among the Afghan youth.3 Why would the United States fund textbooks that promote a dangerous message antithetical to American values?</p>
+                            <!-- Button triggers modal popup -->
+                            <button class="article-link" onclick="openModal('article3')">Read More</button>
+                        </div>
+                    </article>
+
+                     <!-- ========================================
+                         ARTICLE CARD 4
+                         ======================================== -->
+                    <article class="article-card">
+                        <!-- Article image -->
+                        <div class="article-image">
+                            <img src="images/cover3.jpg" alt="How the US Stole Central America (With Bananas)">
+                        </div>
+                        <!-- Article content -->
+                        <div class="article-content">
+                            <h3 class="article-title">How the US Stole Central America (With Bananas)</h3>
+                            <p class="article-description">The history of the Cavendish banana reveals a tale of American imperialism and corporate greed, where companies like United Fruit exploited Central America for profit. Their control over supply chains led to political upheaval and human rights abuses, culminating in the current threat of extinction due to disease, mirroring past exploitative practices.</p>
+                            <!-- Button triggers modal popup -->
+                            <button class="article-link" onclick="openModal('article4')">Read More</button>
+                        </div>
+                    </article>
+
+                     <!-- ========================================
+                         ARTICLE CARD 5
+                         ======================================== -->
+                    <article class="article-card">
+                        <!-- Article image -->
+                        <div class="article-image">
+                            <img src="images/cover6.jpg" alt="Shooting an Elephant">
+                        </div>
+                        <!-- Article content -->
+                        <div class="article-content">
+                            <h3 class="article-title">Shooting an Elephant</h3>
+                            <p class="article-description">In the essay, Orwell explores themes of imperialism, captivity, and authority. The officer struggles with the choice to kill the elephant. His moral compass tells him to observe and report, but he must maintain an atmosphere of authority, holding the rifle among the crowd of Burmese natives.</p>
+                            <!-- Button triggers modal popup -->
+                            <button class="article-link" onclick="openModal('article5')">Read More</button>
+                        </div>
+                    </article>
+
+                     <!-- ========================================
+                         ARTICLE CARD 6
+                         ======================================== -->
+                    <article class="article-card">
+                        <!-- Article image -->
+                        <div class="article-image">
+                            <img src="images/cover4.jpg" alt="From the A'yan to Amir: The Abd al-Karim of the Moroccan Rif">
+                        </div>
+                        <!-- Article content -->
+                        <div class="article-content">
+                            <h3 class="article-title">From the A'yan to Amir: The Abd al-Karim of the Moroccan Rif</h3>
+                            <p class="article-description">The thesis explores the life and role of Abd al-Karim in the Moroccan Rif region during the early 20th century. It likely examines the transition from the influence of local notables (the A'yan) to the leadership of Abd al-Karim (Amir), focusing on the period from 1900 to 1921.</p>
+                            <!-- Button triggers modal popup -->
+                            <button class="article-link" onclick="openModal('article6')">Read More</button>
+                        </div>
+                    </article>
+
+                     <!-- ========================================
+                         ARTICLE CARD 7
+                         ======================================== -->
+                    <article class="article-card">
+                        <!-- Article image -->
+                        <div class="article-image">
+                            <img src="images/defaultcover.jpg" alt="Unpacking American Imperialism: a Critical Analysis">
+                        </div>
+                        <!-- Article content -->
+                        <div class="article-content">
+                            <h3 class="article-title">Unpacking American Imperialism: a Critical Analysis</h3>
+                            <p class="article-description"></p>
+                            <!-- Button triggers modal popup -->
+                            <button class="article-link" onclick="openModal('article7')">Read More</button>
+                        </div>
+                    </article>
+
+                     <!-- ========================================
+                         ARTICLE CARD 8
+                         ======================================== -->
+                    <article class="article-card">
+                        <!-- Article image -->
+                        <div class="article-image">
+                            <img src="images/defaultcover.jpg" alt="The Civilizing Mission">
+                        </div>
+                        <!-- Article content -->
+                        <div class="article-content">
+                            <h3 class="article-title">The Civilizing Mission</h3>
+                            <p class="article-description">Understanding The Duty of Westerners to 'Civilize' So-called 'Inferior' Cultures</p>
+                            <!-- Button triggers modal popup -->
+                            <button class="article-link" onclick="openModal('article8')">Read More</button>
+                        </div>
+                    </article>
+
+                     <!-- ========================================
+                         ARTICLE CARD 9
+                         ======================================== -->
+                    <article class="article-card">
+                        <!-- Article image -->
+                        <div class="article-image">
+                            <img src="images/cover1.jpg" alt="A Fanonian Perspective on Double Consciousness">
+                        </div>
+                        <!-- Article content -->
+                        <div class="article-content">
+                            <h3 class="article-title">A Fanonian Perspective on Double Consciousness</h3>
+                            <p class="article-description">This study examines the historical parallel between the intellectual work of W.E.B. Du Bois and Frantz Fanon. In 1903, Du Bois coined a term called "double consciousness" to explain the thought process of being both a Negro (i.e., Black) and an American (i.e., non-Black) in the United States. Fifty years later, Fanon wrote a detailed analysis of a similar theme in a book called "Black Skin, White Masks". From two different eras, these two scholars/activists provided valuable information on the mental conflict associated with having a dual identity. To provide the basis for finding solutions to the many social crises experienced within the Black community, a Fanonian perspective on double consciousness will be discussed. In conclusion, a recommendation will be put forth to focus on a single-minded consciousness to rescue, to reconstruct, and to revitalize the minds of those who have been miseducated.</p>
+                            <!-- Button triggers modal popup -->
+                            <button class="article-link" onclick="openModal('article9')">Read More</button>
+                        </div>
+                    </article>
+                </div> <!-- End articles-grid -->
+            </div> <!-- End container -->
+        </section> <!-- End articles section -->
+
+    </main> <!-- End main content -->
+    
+    <!-- ========================================
+         MODAL POPUP FOR ARTICLE DETAILS
+         ======================================== -->
+     <div id="articleModal" class="modal">
+        <div class="modal-content">
+            <!-- Modal header with title and close button -->
+            <div class="modal-header">
+                <h2 id="modalTitle">Article Title</h2>
+                <span class="close" onclick="closeModal()">&times;</span>
+            </div>
+            <!-- Modal body with article details -->
+            <div class="modal-body">
+                <!-- Article type badge -->
+                <div class="modal-type">
+                    <span id="modalType" class="type-badge">Essay</span>
+                </div>
+                <!-- Article description -->
+                <p id="modalDescription">This is a brief description of the article. It provides an overview of the content and its significance.</p>
+                <!-- Footer with source link -->
+                <div class="modal-footer">
+                    <a id="modalSourceLink" href="#" target="_blank" class="source-button">Read Full Article</a>
+                </div>
+            </div> <!-- End modal-body -->
+        </div> <!-- End modal-content -->
+    </div> <!-- End modal -->
+</body>
+</html>
+
+
+            
